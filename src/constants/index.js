@@ -38,10 +38,10 @@ export const navLinks = [
 ];
 
 export const services = [
+  { title: "Java", icon: java },
+  { title: "Python", icon: python },
   { title: "C", icon: c },
   { title: "C++", icon: cpp },
-  { title: "Python", icon: python },
-  { title: "Java", icon: java },
 ];
 
 export const technologies = [
@@ -57,38 +57,27 @@ export const technologies = [
 
 export const experiences = [
   {
-    title: "AI/ML Intern",
-    company_name: "EduSkill Foundation | AWS Academy | AICTE",
+    title: "Software Engineer Analyst",
+    company_name: "Accenture Federal Services",
     icon: eduskill,
     iconBg: "#161329",
-    date: "Sep 2023 - Nov 2023",
+    date: "Sep 2023 - Current",
     points: [
-      "Acquired hands-on knowledge of AWS Cloud Foundation, delving into cloud infrastructure, services, and deployment.",
-      "also gaining a solid foundation in Machine Learning, covering topics like algorithms, data analysis, and model building.",
+      "Acquired hands-on knowledge of building Restful API utilizing Sprint Boot with a microservice archietecture.",
+      "Wrote 100+ Junit4 unit tests for existing transform/service layers of code that ensured functionality and compliance.",
+      "Gained a solid foundation in implementing sophisticated algorithms and data structures in complex systems.",
     ],
   },
   {
-    title: "Mathwork Ai Virtual Intern",
-    company_name: "Mathwork | AICTE",
+    title: "DevOps Intern",
+    company_name: "UTSA",
     icon: mathwork,
     iconBg: "#161329",
-    date: "May 2023 - Sep 2023",
+    date: "January 2023 - May 2023",
     points: [
-      "Completed virtual internship, gaining a strong foundation in MATLAB, including data analysis and processing.",
-      "Acquired practical skills in image and signal processing, including segmentation, batch processing, and spectral analysis.",
-      "Developed expertise in machine learning models for clustering, classification, and regression, and customized deep learning techniques for image classification.",
-    ],
-  },
-  {
-    title: "Artificial Intelligence Intern",
-    company_name: "Edunet Foundation | IBM SkillsBuild | AICTE",
-    icon: edunet,
-    iconBg: "#161329",
-    date: "June 2023 - July 2023",
-    points: [
-      "Engineered a comprehensive Mental Health Fitness Tracker ML model utilizing Python and scikit-learn.",
-      "Maximized the model's performance by refining model parameters and employing ensemble methods, yielding an outstanding accuracy percentage of 98.50%.",
-      "Leveraged 12 regression algorithms to attain precise outcomes in analyzing and predicting mental fitness levels across 150+ countries.",
+      "Configured and Automated powershell script processes using Powershell and YML files.",
+      "Acquired practical skills in automating tasks.",
+      "Performed desktop configurations, system imaging, shell scripting, software license servers, and active directory modifications.",
     ],
   },
 ];

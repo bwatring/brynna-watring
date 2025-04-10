@@ -91,17 +91,17 @@ export const projects = [
       { name: "Javascript", color: "blue-text-gradient" },
       { name: "HTML", color: "green-text-gradient" },
       { name: "css", color: "pink-text-gradient" },
-      { name: "Weather API by API Ninjas", color: "yellow-text-gradient" },
     ],
     image: weatherpedia,
     source_code_link: "https://github.com/bwatring/Rowdy2023",
   },
   {
-    name: "Terminal Like Portfolio Website",
+    name: "Middleware",
     description:
-      "Middleware for a blackbox api (ESE Assignment).",
+      "An API made from scratch that grabs PDF files from a blackbox, contains cronjob that automated this as well.",
     tags: [
       { name: "PHP", color: "blue-text-gradient" },
+      { name: "PHPMyAdminSQL", color: "blue-text-gradient" },
     ],
     image: termpw,
     source_code_link: "https://github.com/bwatring/Middle",

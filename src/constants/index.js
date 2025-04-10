@@ -40,8 +40,8 @@ export const navLinks = [
 export const services = [
   { title: "Java", icon: java },
   { title: "Python", icon: python },
-  { title: "C", icon: c },
-  { title: "C++", icon: cpp },
+  { title: "JavaScript", icon: javascript },
+  { title: "ReactJS", icon: reactjs },
 ];
 
 export const technologies = [
@@ -84,76 +84,39 @@ export const experiences = [
 
 export const projects = [
   {
-    name: "WeatherPedia",
+    name: "Rowdy2023",
     description:
-      "Web-based platform that allows users to access weather information for their location by entering it in the search field",
+      "Web-based application that tells the user what to wear based on weather information for their location by entering it in the search field",
     tags: [
       { name: "Javascript", color: "blue-text-gradient" },
       { name: "HTML", color: "green-text-gradient" },
-      { name: "bootstrap 5.3.0", color: "pink-text-gradient" },
+      { name: "css", color: "pink-text-gradient" },
       { name: "Weather API by API Ninjas", color: "yellow-text-gradient" },
     ],
     image: weatherpedia,
-    source_code_link: "https://github.com/lohitkolluri/WeatherPedia",
+    source_code_link: "https://github.com/bwatring/Rowdy2023",
   },
   {
     name: "Terminal Like Portfolio Website",
     description:
-      "A terminal themed portfolio website that allows users to type into the terminal and use commands like a real terminal.",
+      "Middleware for a blackbox api (ESE Assignment).",
     tags: [
-      { name: "HTML", color: "blue-text-gradient" },
-      { name: "css", color: "green-text-gradient" },
-      { name: "Javascript", color: "pink-text-gradient" },
+      { name: "PHP", color: "blue-text-gradient" },
     ],
     image: termpw,
-    source_code_link: "https://github.com/lohitkolluri/lohitkolluri.github.io",
+    source_code_link: "https://github.com/bwatring/Middle",
   },
   {
-    name: "Mental Health Fitness Tracker",
+    name: "SmartLocke",
     description:
-      "ML model that utilizes regression techniques to provide insights into mental health and make predictions based on the available data.",
+      "SmartLocky is a project that will automatically unlock a user if they are locked out without prompting again, and let the tech user know whether they were locked out or not and what kind of lockout that user is experiencing.",
     tags: [
-      { name: "Machine Learning", color: "blue-text-gradient" },
-      { name: "Jupyter Notebook", color: "green-text-gradient" },
-      { name: "Regression Algorithms", color: "pink-text-gradient" },
+      { name: "Powershell", color: "blue-text-gradient" },
+      { name: "Power Automate", color: "green-text-gradient" },
+      { name: "Gitlab", color: "pink-text-gradient" },
     ],
     image: mhft,
     source_code_link:
-      "https://github.com/lohitkolluri/mental_health_fitness_tracker",
-  },
-  {
-    name: "PayloadMaster",
-    description:
-      "Tool to automate payload creation using the Metasploit framework",
-    tags: [
-      { name: "shell", color: "blue-text-gradient" },
-    ],
-    image: payloadmaster,
-    source_code_link: "https://github.com/lohitkolluri/PayloadMaster",
-  },
-  {
-    name: "CompileVortex",
-    description:
-      "Tool to automate payload creation using the Metasploit framework",
-    tags: [
-      { name: "Javascript", color: "blue-text-gradient" },
-      { name: "CSS", color: "green-text-gradient" },
-      { name: "HTML", color: "pink-text-gradient" },
-    ],
-    image: CompileVortex,
-    source_code_link: "https://github.com/lohitkolluri/CompileVortex",
-  },
-  {
-    name: "Sketcher",
-    description:
-      "Convert an input image to a pencil sketch using OpenCV and Matplotlib libraries.",
-    tags: [
-      { name: "OpenCV", color: "blue-text-gradient" },
-      { name: "Matplotlib", color: "green-text-gradient" },
-      { name: "Python", color: "pink-text-gradient" },
-    ],
-
-    image: sketcher,
-    source_code_link: "https://github.com/lohitkolluri/Image_to_Pencil_Sketch_App",
+      "https://github.com/bwatring/smartlocke",
   },
 ];
